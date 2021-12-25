@@ -50,11 +50,9 @@ I'm interested in how interface elements interact, how pages make requests to di
 
 ***
 ### My courses
-|Course| Sertificate|
-|:---------------------------------------------------|--------------------------------------------------|
-|* Functional testing on the IT-academy _(completed)_|![My photo](/courses in IT-academy.png "My photo")|
-|* HTML and CSS Tutorials on the HTML academy _(completed)_| without sertificate|
-|* JS / FRONT-END on the RS schools _(in proccess)_|
+* Functional testing on the IT-academy _(completed)_
+* HTML and CSS Tutorials on the HTML academy _(completed)_ without sertificate
+* JS / FRONT-END on the RS schools _(in proccess)_
 
 ***
 ### Languages
