@@ -1,5 +1,5 @@
 # Vyacheslav Kolyago
 
-![My photo](/photo_2021-06-03_15-13-27.jpg "My photo")
+![My photo](https://github.com/v-kolyago/rsschool-cv/blob/gh-pages/photo_2021-06-03_15-13-27.jpg "My photo")
 
 ## Junior Frontend Developer
