@@ -1,0 +1,170 @@
+    html {
+        scroll-behavior: smooth;
+        position:static;
+        background-image: url(./assets/img/background/fon_4.jpg);
+        background-size:auto;   
+      }
+
+    body {
+        font-family: 'Work Sans', sans-serif;
+        margin: 16px;
+        height: 900px;
+        width: 1800px;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: center;
+    }
+
+    .header {
+        border-bottom: rgb(106, 24, 138, .2) solid 2px;
+        height: ;
+    }
+    
+    .profile {
+        display: flex;
+        margin-left: 72px;
+        margin-top: 32px;
+        padding-bottom: 16px;
+        margin-bottom: 16px;
+        align-items: center;
+        border-bottom: 2px solid rgba(106, 24, 138, .2);
+    }
+
+    .information {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .contacts {
+        position: relative;
+        font-size: 16px;
+        margin-bottom: 42px;
+    }
+
+    .skills {
+        position: relative;
+        font-size: 16px;
+        margin-bottom: 42px;
+    }
+
+    .courses {
+        position: relative;
+        font-size: 16px;
+        margin-bottom: 42px;        
+    }
+
+    .container {
+        max-width: 1440px;
+        margin: 0 auto;
+      }
+
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: 16px;
+        margin-right: 16px;
+      }
+      
+    .section {
+        width: 50%;
+      }
+
+    .summary {
+        max-width: 420px;
+    }
+
+    .education_code_projects_english {
+        min-width: 200px;
+        margin-left: 8px;
+        margin-right: 8px;
+        padding-right: 8px;
+        padding-left: 8px;
+        margin-bottom: 72px;
+    }
+
+    .education {
+        margin-bottom: 48px;
+    }
+
+    .code {
+        margin-bottom: 48px;
+    }
+
+    .projects {
+        margin-bottom: 48px;
+    }
+
+    .english {
+        margin-bottom: 48px;
+    }
+
+    .nav-list {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+
+    .links {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    @media (max-width: 768px) {
+
+        .body {
+            margin: 8px;
+        }
+
+        .section {
+          width: 100%;
+        }
+
+        .profile {
+            margin-left: 0px;
+            margin-right: auto;
+            font-size: 20px;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .information {
+            flex-wrap: wrap;
+        }
+
+        .nav-list {
+            padding:0px;
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-items: flex-end;
+            margin-top: 0px;
+        }
+
+        .education_code_projects_english {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .contacts_skill_courses {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        ul {
+            padding: 0px;
+        }
+        
+        h1 {
+            margin-block-end: 0px;
+        }
+        
+        h2 {
+            font-size: 16px;
+        }
+   
+    }
