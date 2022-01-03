@@ -14,7 +14,7 @@
 <body>
     <header class="header">
         <nav class="nav">
-            <ul class="nav-list">
+            <ul class="nav-list" style="list-style-type: none;">
               <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
               <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
               <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
@@ -25,57 +25,81 @@
               <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
             </ul>
           </nav>
-        <div class="container">
-            <div class="information">
-                <img src="/assets/img/photo/photo.png" alt="My photo" width="128px" height="128px" style="padding-right: 16px;">
-                <h1>Kolyago Vyacheslav
-                <br>Frontend Developer</br><h1>
-        </div>
     </header>
-    <main class="main">
-            <div class="summary">
-            <h2>About myself</h2>
-            <p> I'm a good team player who have leader qualities. I pay attentive to details and try to be extremely helpful in my time management. My main pros is a responsibility. I also prefer to investigate new technologies and proccesses and develop my skills.
-            <br>
-            <br>What about my expirience?
-            <br>At the moment I am working as a QA engineer and have over one and a half years of experience in the company. During my work, I managed to work with functional and non-functional testing. In particular, I had to test the operation of the API for the interaction of microservices, as well as conduct UI / UX testing of the functionality displayed on the landing pages.
-            <br>
-            <br>Why front-end development?
-            <br>I'm interested in how interface elements interact, how pages make requests to display a particular element. In addition, I like the dynamism of pages and I would like to take part in the development of such functionality in order to visually observe my work</p>
+    <main class="main-container">
+        <section class="profile">
+                <img src="/assets/img/photo/photo.png" alt="My photo" width="128" height="128" style="padding-right: 16px;">
+                <h1 style="font-size: 2em;">Kolyago Vyacheslav
+                <br>Frontend Developer</h1>
+        </section>
+        <div class=information>
+            <section class="summary" id="summary">
+                <h2 style="text-decoration: underline;">About myself</h2>
+                <p> I'm a good team player who have leader qualities. I pay attentive to details and try to be extremely helpful in my time management. My main pros is a responsibility. I also prefer to investigate new technologies and proccesses and develop my skills.
+                <br>
+                <br>What about my expirience?
+                <br>At the moment I am working as a QA engineer and have over one and a half years of experience in the company. During my work, I managed to work with functional and non-functional testing. In particular, I had to test the operation of the API for the interaction of microservices, as well as conduct UI / UX testing of the functionality displayed on the landing pages.
+                <br>
+                <br>Why front-end development?
+                <br>I'm interested in how interface elements interact, how pages make requests to display a particular element. In addition, I like the dynamism of pages and I would like to take part in the development of such functionality in order to visually observe my work</p>
+            </section>
+            <div class="education_code_projects_english">
+                <section class="education" id="education">
+                    <h2 style="text-decoration:underline">Education</h2>
+                    Military Academy of the Republic of Belarus
+                    <p>Engineer's degree, Telecommunications system</p>
+                </section>
+                <section id="code">
+                    <h2 style="text-decoration: underline;">Code</h2>
+                    <code class="code">
+                    function multiply(a, b){
+                    <br>return a * b
+                    <br>}
+                    </code>
+                </section>
+                <section class="projects" id="projects">
+                    <h2 style="text-decoration: underline;">Projects</h2>
+                    <a href="https://v-kolyago.github.io/rsschool-cv/cv">My CV on markdown</a>
+                </section>
+                <section class= "english" id="english">
+                    <h2 style="text-decoration: underline;">English</h2>
+                    B1<i>(Intermediate)</i>
+                </section>
             </div>
-            <div class="">
-            <div class="contacts_and_skills">
-                <div class="contacts">
-                    <ul id="contacts" style="font-size: 24px; margin: 16px;"><b>My contacts</b></ul>
+            <div class="contacts_skills_courses">
+                <section class="contacts" id="Contacts">
+                    <h2 style="text-decoration: underline;">My contacts</h2><ul>
                         <li>Phone: +375339004011</li>
                         <li>Email: slawakolyago@gmail.com</li>
                         <li><a href="https://www.linkedin.com/in/vyacheslav-kolyago">LinkedIn</a></li>
-                </div>
-                <div class="skills">
-                    <ul id="skills" style="font-size: 24px; margin: 16px;"><b>My skills</b></ul>
+                    </ul>
+                </section>
+                <section class="skills" id="skills">
+                   <h2 style="text-decoration: underline;">My skills</h2> <ul>
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>JavaScript Basics</li>
                         <li>Git, Github, Gitlab</li>
                         <li>VS Code</li>
                         <li>Docker</li>
-                        <li>Rabbit</li>
-                        <li>Jira, TargetProccess</li>
-                </div>
-                <div class="courses">
-                    <ul id="skills" style="font-size: 24px; margin: 16px;"><b>Courses</b></ul>
-                    <li>Functional testing on the IT-academy<i>(completed)</i></li>
-                    <li>HTML and CSS Tutorials on the HTML academy<i>(completed)</i></li>
-                    <li>JS/FRONT-END on the RS schools <i>(in proccess)</i></li>
-                </div>
+                    </ul>
+                </section>
+                <section class="courses" id="courses">
+                    <h2 style="text-decoration: underline;">Courses</h2><ul>
+                        <li>Functional testing on the IT-academy<i>(completed)</i></li>
+                        <li>HTML and CSS Tutorials on the HTML academy<i>(completed)</i></li>
+                        <li>JS/FRONT-END on the RS schools <i>(in proccess)</i></li>
+                    </ul>
+                </section>
             </div>
+        </div>
     </main>
     <footer class="footer">
         <div class="container">
             <div class="links">
-                <a href="https://github.com/v-kolyago"><img src="assets/img/footer/github_logo.png" alt="Github logo" width=32px height=32px></a>
+                <a href="https://github.com/v-kolyago"><img src="assets/img/footer/github_logo.png" alt="Github logo" width=32 height=32></a>
                 <h2>2022</h2>
-                <a href="https://rs.school/js/"><img src="assets/img/footer/rs_school_js.svg" alt="Courses logo" width=64px height=64px></a>
+                <a href="https://rs.school/js/"><img src="assets/img/footer/rs_school_js.svg" alt="Courses logo" width=64 height=64></a>
             </div>
         </div>
     </footer>
