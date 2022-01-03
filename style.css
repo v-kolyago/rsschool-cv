@@ -8,8 +8,8 @@
     body {
         font-family: 'Work Sans', sans-serif;
         margin: 16px;
-        height: 900px;
-        width: 1800px;
+        height: auto;
+        width: auto;
         padding: 0;
         display: flex;
         flex-direction: column;
@@ -19,7 +19,6 @@
 
     .header {
         border-bottom: rgb(106, 24, 138, .2) solid 2px;
-        height: ;
     }
     
     .profile {
