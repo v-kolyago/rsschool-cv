@@ -1,0 +1,206 @@
+html {
+position: relative;
+scroll-behavior: smooth;
+width: 1440px;
+height: 5532px;
+background: #000;
+}
+
+.body {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 0;
+    padding: 0;
+    width: 1440px;
+    height: 1880px;
+    position: static;
+    left: 20px;
+    top: 20px;
+    background: url(assets/images/fon/bg.png);
+}
+
+.header {
+    position: absolute;
+    width: 1440px;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+}
+.logo {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 20px;
+    top: 20px;
+}
+.nav {
+    position: absolute;
+    height: 50px;
+    left: 59.03%;
+    right: 6.25%;
+    top: 20px;
+}
+.nav-link {
+    font-family: Inter;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 50px;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    font-weight: 400;
+}
+.nav-link:hover {
+    color: #BDAE82;
+}
+.nav-item-skills {
+    position: absolute;
+    height: 50px;
+    left: 6%;
+    right: 84.2%;
+    top: 0px;
+
+}
+.nav-item-portfolio {
+    position: absolute;
+    height: 50px;
+    left: 21.8%;
+    right: 62%;
+    top: 0px;
+    
+}
+.nav-item-video {
+    position: absolute;
+    height: 50px;
+    left: 44%;
+    right: 45%;
+    top: 0px;
+}
+.nav-item-price {
+    position: absolute;
+    height: 50px;
+    left: 61%;
+    right: 29.4%;
+    top: 0px;
+}
+.nav-item-contacts {
+    position: absolute;
+    height: 50px;
+    left: 76.6%;
+    right: 6.2%;
+    top: 0px;
+}
+.language {
+    position: absolute;
+    height: 50px;
+    left: 93.75%;
+    right: 1.39%;
+    top: 20px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight:bold;
+    font-size: 20px;
+    line-height: 50px;
+}
+.en {
+    position: absolute;
+    width: 25px;
+    height: 50px;
+    left: calc(50% - 25px/2 - 22.5px);
+    top: 0px;
+    color:rgba(189, 174, 130, 1);
+    
+}
+.symbol {
+    position: absolute;
+    width: 8px;
+    height: 50px;
+    left: calc(50% - 8px/2 + 3px);
+    top: 0px;
+    color: rgba(255, 255, 255, 1);
+}
+.ru {
+    position: absolute;
+    width: 22px;
+    height: 50px;
+    left: calc(50% - 22px/2 + 26px);
+    top: 0px;
+    color: rgba(255, 255, 255, 1)
+}
+.hero {
+    position: absolute;
+    height: 330px;
+    left: 5.56%;
+    right: 59.72%;
+    top: 250px;
+}
+.hero-title {
+    height: 120px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    color: rgba(255, 255, 255, 1);
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 120px;
+}
+.hero-text {
+    position: absolute;
+    height: 120px;
+    left: 0%;
+    right: 6%;
+    top: 130px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 40px;
+    color: rgba(255, 255, 255, 1);
+}
+.button {
+    position: absolute;
+    height: 55px;
+    left: 0%;
+    right: 56%;
+    top: 275px;
+    background: #BDAE82;
+    color: #000;
+    width: 220px;
+    height: 55px;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 40px;
+}
+.button:hover {
+    color: #fff;
+} 
+.skills {
+    position: absolute;
+    width: 1440px;
+    height: 482px;
+    left: 0px;
+    top: 910px;
+}
+.skills-title {
+    position: absolute;
+    height: 80px;
+    left: 25.69%;
+    right: 25.69%;
+    top: 100px;
+}
+.skills-title-text {
+    position: absolute;
+    width: 152px;
+    height: 80px;
+    left: calc(50% - 152px/2);
+    top: 0px;
+}
+.skills-title-line {
+    position: absolute;
+    height: 2px;
+    left: 0%;
+    right: 0%;
+    top: 39px;
+}
