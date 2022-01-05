@@ -1,0 +1,22 @@
+.contacts {
+    position: absolute;
+    width: 1440px;
+    height: 700px;
+    left: 0px;
+    top: 4682px;
+    background: url(../assets/images/contacts/contacts.svg);
+}
+.Email {
+    position: absolute;
+    width: 204px;
+    height: 40px;
+    left: 990px;
+    top: 185px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 40px;
+    color: #BDAE82;  
+    background: none;  
+}

@@ -1,0 +1,219 @@
+.price {
+    position: absolute;
+    width: 1440px;
+    height: 845px;
+    left: 0px;
+    top: 3837px;
+}
+.price-title {
+    position: absolute;
+    height: 80px;
+    left: 25.76%;
+    right: 25.62%;
+    top: 100px;  
+}
+.price-title-text {
+    position: absolute;
+    height: 80px;
+    left: 39.86%;
+    right: 39.86%;
+    top: 0px;
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 80px;
+    text-align: center;
+    color: #BDAE82;
+    background: #000;
+}
+.price-title-line {
+    position: absolute;
+    height: 2px;
+    left: 0%;
+    right: 0%;
+    top: 39px;
+    background: #BDAE82;
+    border-radius: 0px;
+}
+.price-items {
+    width: 1400px;
+    height: 505px;
+    left: 20px;
+    top: 240px;
+}
+.price-item-standard {
+    position: absolute;
+    height: 505px;
+    left: 1.39%;
+    right: 67.36%;
+    top: 240px;
+    border: 3px solid #BDAE82;
+    box-sizing: border-box;
+    border-radius: 0px;
+}
+.price-item-premium {
+    position: absolute;
+    height: 505px;
+    left: 34.38%;
+    right: 34.38%;
+    top: 240px;
+    border: 3px solid #BDAE82;
+    box-sizing: border-box;
+    border-radius: 0px;
+}
+.price-item-gold {
+    position: absolute;
+    height: 505px;
+    left: 67.36%;
+    right: 1.39%;
+    top: 240px;
+    border: 3px solid #BDAE82;
+    box-sizing: border-box;
+    border-radius: 0px;
+}
+.price-item-standard-title {
+    position: absolute;
+    width: 128px;
+    height: 56px;
+    left: calc(50% - 128px/2);
+    top: 43px;
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 56px;
+    text-align: center;
+    color: #fff;
+}
+.price-item-premium-title {
+    position: absolute;
+    width: 132px;
+    height: 56px;
+    left: calc(50% - 132px/2);
+    top: 43px;
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 56px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.price-item-gold-title {
+    position: absolute;
+    width: 67px;
+    height: 56px;
+    left: calc(50% - 67px/2 + 0.5px);
+    top: 43px;
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 56px; 
+    text-align: center;
+    color: #FFFFFF;
+}
+.standard-price {
+    position: absolute;
+    width: 69px;
+    height: 48px;
+    left: calc(50% - 69px/2 + 0.5px);
+    top: 119px;
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 48px;
+    text-align: center;
+    color: #BDAE82;
+}
+.premium-price {
+    position: absolute;
+    width: 68px;
+    height: 48px;
+    left: calc(50% - 68px/2);
+    top: 119px;
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 48px;
+    text-align: center;
+    color: #BDAE82;
+}
+.gold-price {
+    position: absolute;
+    width: 81px;
+    height: 48px;
+    left: calc(50% - 81px/2 - 0.5px);
+    top: 119px;
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 48px;
+    text-align: center;
+    color: #BDAE82;
+}
+.standard-frame {
+    position: absolute;
+    height: 180px;
+    left: 9.63%;
+    right: 9.48%;
+    top: 187px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.premium-frame {
+    position: absolute;
+    height: 180px;
+    left: 9.55%;
+    right: 9.56%;
+    top: 187px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.gold-frame {
+    position: absolute;
+    height: 180px;
+    left: 9.48%;
+    right: 9.64%;
+    top: 187px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.price-button {
+    position: absolute;
+    height: 55px;
+    left: 25.56%;
+    right: 25.56%;
+    width: 220px;
+    top: 407px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    background: #BDAE82;
+    color: rgba(0, 0, 0, 1);
+}
+.price-button:hover {
+    color: #FFFFFF;
+}

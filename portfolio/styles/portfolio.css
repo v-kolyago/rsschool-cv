@@ -1,0 +1,185 @@
+.portfolio {
+    position: absolute;
+    width: 1440px;
+    height: 1500px;
+    left: 0px;
+    top: 1392px;
+}
+.portfolio-title {
+    position: absolute;
+    height: 80px;
+    left: 25.69%;
+    right: 25.69%;
+    top: 100px;
+}
+.portfolio-title-text {
+    position: absolute;
+    width: 220px;
+    height: 80px;
+    left: calc(50% - 220px/2 - 8px);
+    top: 0px;
+    color: #BDAE82;
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 80px;
+    text-align: center;
+    background-color: black;
+}
+.portfolio-title-line {
+    position: absolute;
+    height: 2px;
+    left: 0%;
+    right: 0%;
+    top: 39px;
+    background: #BDAE82;
+    border-radius: 0px;
+}
+.portfolio-buttons {
+    position: absolute;
+    width: 895px;
+    height: 55px;
+    left: 272px;
+    top: 240px;
+}
+.button-winter {
+    position: absolute;
+    width: 220px;
+    height: 55px;
+    background-color: #000000;
+    color: #BDAE82;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    border: 2px solid #BDAE82;
+    box-sizing: border-box;
+    border-radius: 0px;
+}
+.button-winter:hover {
+    color: #FFFFFF;
+}
+.button-spring {
+    position: absolute;
+    width: 220px;
+    height: 55px;
+    left: calc(50% - 220px/2 - 113px);
+    background-color: #000000;
+    color: #BDAE82;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    border: 2px solid #BDAE82;
+    box-sizing: border-box;
+    border-radius: 0px;
+}
+.button-spring:hover {
+    color: #FFFFFF;
+}
+.button-summer {
+    position: absolute;
+    width: 220px;
+    height: 55px;
+    left: calc(50% - 220px/2 + 112px);
+    background-color: #000000;
+    color: #BDAE82;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    border: 2px solid #BDAE82;
+    box-sizing: border-box;
+    border-radius: 0px;
+}
+.button-summer:hover {
+    color: #FFFFFF;
+}
+.button-autumn {
+    position: absolute;
+    width: 220px;
+    height: 55px;
+    left: calc(50% - 220px/2 + 337px);
+    background-color: #BDAE82;
+    color: #000000;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    border: 2px solid #BDAE82;
+    box-sizing: border-box;
+    border-radius: 0px;
+}
+.button-autumn:hover {
+    color: #FFFFFF;
+}
+.portfolio-items {
+    position: absolute;
+    height: 1145px;
+    left: 1.39%;
+    right: 1.39%;
+    top: 355px;
+}
+.portfolio-items-1 {
+    position: absolute;
+    height: 560px;
+    left: 0%;
+    right: 67.86%;
+    top: 0px;
+    background: url(../assets/images/portfolio/portfolio-img.png);
+    border-radius: 0px;
+}
+.portfolio-items-2 {
+    position: absolute;
+    height: 560px;
+    left: 33.93%;
+    right: 33.93%;
+    top: 0px;
+    background: url(../assets/images/portfolio/2-portfolio-img.png);
+    border-radius: 0px;
+}
+.portfolio-items-3 {
+    position: absolute;
+    height: 560px;
+    left: 67.86%;
+    right: 0%;
+    top: 0px;
+    background: url(../assets/images/portfolio/3-portfolio-img.png);
+    border-radius: 0px;
+}
+.portfolio-items-4 {
+    position: absolute;
+    height: 560px;
+    left: 0%;
+    right: 67.86%;
+    top: 585px;
+    background: url(../assets/images/portfolio/4-portfolio-img.png);
+    border-radius: 0px;
+}
+.portfolio-items-5 {
+    position: absolute;
+    height: 560px;
+    left: 33.93%;
+    right: 33.93%;
+    top: 585px;
+    background: url(../assets/images/portfolio/5-portfolio-img.png);
+    border-radius: 0px;
+}
+.portfolio-items-6 {
+    position: absolute;
+    height: 560px;
+    left: 67.86%;
+    right: 0%;
+    top: 585px;
+    background: url(../assets/images/portfolio/6-portfolio-img.png);
+    border-radius: 0px;
+}

@@ -33,6 +33,10 @@ background: #000;
     height: 50px;
     left: 20px;
     top: 20px;
+    background: url(/portfolio/assets/images/logo/logo_unvisited.svg);
+}
+.logo:hover {
+    background: url(/portfolio/assets/images/logo/logo_hover.svg);
 }
 .nav {
     position: absolute;
@@ -196,6 +200,21 @@ background: #000;
     height: 80px;
     left: calc(50% - 152px/2);
     top: 0px;
+    background-color: #000;
+}
+.skills-title-text-1 {
+    position: absolute;
+    width: 112px;
+    height: 80px;
+    left: calc(50% - 112px/2);
+    top: 0px;
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 80px;
+    text-align: center;
+    color: #BDAE82;
 }
 .skills-title-line {
     position: absolute;
@@ -203,4 +222,81 @@ background: #000;
     left: 0%;
     right: 0%;
     top: 39px;
+    background-color: #BDAE82;
+}
+.skills-items {
+    position: absolute;
+    height: 242px;
+    left: 1.39%;
+    right: 1.39%;
+    top: 240px;
+}
+.skills-item-camera {
+    position: absolute;
+    height: 240px;
+    left: -0.07%;
+    right: 77.21%;
+    top: 2px;
+}
+h3 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    color:#FFFFFF;
+}
+.skills-item-title {
+    position: absolute;
+    width: 280px;
+    height: 40px;
+    left: calc(50% - 280px/2);
+    top: 100px;
+}
+h4 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.skills-item-description {
+    position: absolute;
+    width: 280px;
+    height: 72px;
+    left: calc(50% - 280px/2);
+    top: 160px;
+}
+.skills-item-video {
+    position: absolute;
+    height: 240px;
+    left: 25.71%;
+    right: 51.43%;
+    top: 0px;
+}
+.skills-item-image {
+    position: absolute;
+    height: 240px;
+    left: 51.43%;
+    right: 25.71%;
+    top: 0px;
+}
+.skills-item-audio {
+    position: absolute;
+    height: 240px;
+    left: 77.14%;
+    right: 0%;
+    top: 0px;
+}
+h2 {
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 80px;
+    text-align: center;
+    color: #BDAE82;
 }
