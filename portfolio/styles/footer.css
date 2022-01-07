@@ -1,0 +1,34 @@
+.footer {
+    position: absolute;
+    width: 1440px;
+    height: 150px;
+    left: 0px;
+    top: 5382px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 50px;
+    color: #fff;    
+}
+.footer-data {
+    position: absolute;
+    height: 50px;
+    left: 1.39%;
+    right: 85.97%;
+    top: calc(50% - 50px/2);
+}
+.footer-course-name {
+    position: absolute;
+    height: 50px;
+    left: 42.71%;
+    right: 42.64%;
+    top: calc(50% - 50px/2);
+}
+.social-links {
+    position: absolute;
+    width: 188px;
+    height: 50px;
+    left: 1232px;
+    top: 50px;
+}
