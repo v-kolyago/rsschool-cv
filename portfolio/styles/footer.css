@@ -32,3 +32,36 @@
     left: 1232px;
     top: 50px;
 }
+.instagram {
+    background-image: url(/portfolio/assets/images/social_links/1inst.svg);
+    width: 32px;
+    height: 32px;
+    left: 0px;
+}
+.instagram:hover {
+    background-image: url(/portfolio/assets/images/social_links/2inst.svg);
+}
+.facebook {
+    background-image: url(/portfolio/assets/images/social_links/1fb.svg);
+    width: 32px;
+    height: 32px;
+}
+.facebook:hover {
+    background-image: url(/portfolio/assets/images/social_links/2fb.svg);
+}
+.twitter {
+    background-image: url(/portfolio/assets/images/social_links/1tw.svg);
+    width: 32px;
+    height: 32px;
+}
+.twitter:hover {
+    background-image: url(/portfolio/assets/images/social_links/2tw.svg);
+}
+.pinterest {
+    background-image: url(/portfolio/assets/images/social_links/1pinterest.svg);
+    width: 32px;
+    height: 32px;
+}
+.pinterest:hover {
+    background-image: url(/portfolio/assets/images/social_links/2pinterest.svg);
+}

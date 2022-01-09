@@ -20,12 +20,6 @@
     left: calc(50% - 154px/2);
     top: 0px;
     color: #BDAE82;
-    font-family: Merriweather;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 80px;
-    text-align: center;
     background-color: black;
 }
 .video-title-line {

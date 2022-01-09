@@ -1,0 +1,111 @@
+.header {
+    position: absolute;
+    width: 1440px;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+}
+.logo {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 20px;
+    top: 20px;
+    background: url(/portfolio/assets/images/logo/logo_unvisited.svg);
+}
+.logo:hover {
+    background: url(/portfolio/assets/images/logo/logo_hover.svg);
+}
+.nav {
+    position: absolute;
+    height: 50px;
+    left: 59.03%;
+    right: 6.25%;
+    top: 20px;
+}
+.nav-link {
+    font-family: Inter;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 50px;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    font-weight: 400;
+}
+.nav-link:hover {
+    color: #BDAE82;
+}
+.nav-item-skills {
+    position: absolute;
+    height: 50px;
+    left: 6%;
+    right: 84.2%;
+    top: 0px;
+
+}
+.nav-item-portfolio {
+    position: absolute;
+    height: 50px;
+    left: 21.8%;
+    right: 62%;
+    top: 0px;
+    
+}
+.nav-item-video {
+    position: absolute;
+    height: 50px;
+    left: 44%;
+    right: 45%;
+    top: 0px;
+}
+.nav-item-price {
+    position: absolute;
+    height: 50px;
+    left: 61%;
+    right: 29.4%;
+    top: 0px;
+}
+.nav-item-contacts {
+    position: absolute;
+    height: 50px;
+    left: 76.6%;
+    right: 6.2%;
+    top: 0px;
+}
+.language {
+    position: absolute;
+    height: 50px;
+    left: 93.75%;
+    right: 1.39%;
+    top: 20px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight:bold;
+    font-size: 20px;
+    line-height: 50px;
+}
+.en {
+    position: absolute;
+    width: 25px;
+    height: 50px;
+    left: calc(50% - 25px/2 - 22.5px);
+    top: 0px;
+    color:rgba(189, 174, 130, 1);
+    
+}
+.symbol {
+    position: absolute;
+    width: 8px;
+    height: 50px;
+    left: calc(50% - 8px/2 + 3px);
+    top: 0px;
+    color: rgba(255, 255, 255, 1);
+}
+.ru {
+    position: absolute;
+    width: 22px;
+    height: 50px;
+    left: calc(50% - 22px/2 + 26px);
+    top: 0px;
+    color: rgba(255, 255, 255, 1)
+}

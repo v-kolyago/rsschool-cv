@@ -1,0 +1,80 @@
+.skills {
+    position: absolute;
+    width: 1440px;
+    height: 482px;
+    left: 0px;
+    top: 910px;
+}
+.skills-title {
+    position: absolute;
+    height: 80px;
+    left: 25.69%;
+    right: 25.69%;
+    top: 100px;
+}
+.skills-title-text {
+    position: absolute;
+    width: 152px;
+    height: 80px;
+    left: calc(50% - 152px/2);
+    top: 0px;
+    background-color: #000;
+    color: #BDAE82;
+}
+.skills-title-line {
+    position: absolute;
+    height: 2px;
+    left: 0%;
+    right: 0%;
+    top: 39px;
+    background-color: #BDAE82;
+}
+.skills-items {
+    position: absolute;
+    height: 242px;
+    left: 1.39%;
+    right: 1.39%;
+    top: 240px;
+}
+.skills-item-camera {
+    position: absolute;
+    height: 240px;
+    left: -0.07%;
+    right: 77.21%;
+    top: 2px;
+}
+.skills-item-title {
+    position: absolute;
+    width: 280px;
+    height: 40px;
+    left: calc(50% - 280px/2);
+    top: 100px;
+}
+.skills-item-description {
+    position: absolute;
+    width: 280px;
+    height: 72px;
+    left: calc(50% - 280px/2);
+    top: 160px;
+}
+.skills-item-video {
+    position: absolute;
+    height: 240px;
+    left: 25.71%;
+    right: 51.43%;
+    top: 0px;
+}
+.skills-item-image {
+    position: absolute;
+    height: 240px;
+    left: 51.43%;
+    right: 25.71%;
+    top: 0px;
+}
+.skills-item-audio {
+    position: absolute;
+    height: 240px;
+    left: 77.14%;
+    right: 0%;
+    top: 0px;
+}

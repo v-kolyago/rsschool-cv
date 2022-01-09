@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./portfolio/styles/main.css">
+    <link rel="stylesheet" href="./portfolio/styles/header.css">
+    <link rel="stylesheet" href="./portfolio/styles/skills.css">
     <link rel="stylesheet" href="./portfolio/styles/portfolio.css">
     <link rel="stylesheet" href="./portfolio/styles/video.css">
     <link rel="stylesheet" href="./portfolio/styles/price.css">
@@ -18,8 +20,7 @@
 </head>
 <body class="body">
     <header class="header">
-        <section class="logo">
-        </section>
+        <span class="logo"></span>
         <nav class="nav">
             <ul class="nav-list" style="list-style-type: none;">
               <li class="nav-item-skills"><a href="#skills" class="nav-link">Skills</a></li>
@@ -29,47 +30,49 @@
               <li class="nav-item-contacts"><a href="#contacts" class="nav-link">Contacts</a></li>
             </ul>
         </nav>
-        <section class="language">
+        <span class="language">
             <span class="en">en</span><span class="symbol">/</span><span class="ru">ru</span>
-        </section>
+        </span>
     </header>
     <main>
-        <div class="hero">
-            <section class="hero-title">Alexa Rise</section>
-            <section class="hero-text">Save sincere emotions, romantic feelings and happy moments of life together with professional photographer Alexa Rise</section>
+        <section class="hero">
+            <h1>Alexa Rise</h1>
+            <div class="hero-text">Save sincere emotions, romantic feelings and happy moments of life together with professional photographer Alexa Rise</div>
             <button class="button">Hire me</button>
-        </div>
-        <div class="skills" id="skills">
-            <section class="skills-title">
-                <section class="skills-title-line"></section>
+        </section>
+        <section class="skills" id="skills">
+            <div class="skills-title">
+                <span class="skills-title-line"></span>
                 <section class="skills-title-text">
-                    <span class="skills-title-text-1">Skills</span>
+                    <h2>Skills</h2>
                 </section>
-            </section>
-            <section class="skills-items">
-                <section class="skills-item-camera"><img src="./portfolio/assets/images/skills/camera 1.png" alt="camera" style="position: absolute; width: 62px; height: 50px; left: 129px; top: 0;">
+            </div>
+            <div class="skills-items">
+                <section class="skills-item-camera"><img src="./portfolio/assets/images/skills/camera.svg" alt="camera" style="position: absolute; width: 62px; height: 50px; left: 129px; top: 0;">
                     <h3><span class="skills-item-title">Digital photography</span></h3>
                     <h4><span class="skills-item-description">High-quality photos in the studio and on the nature</span></h4>
                 </section>
-                <section class="skills-item-video"><img src="./portfolio/assets/images/skills/video 1.png" alt="video" style="position: absolute; width: 60px; height: 50px; left: 130px; top: 0;">
+                <section class="skills-item-video"><img src="./portfolio/assets/images/skills/video.svg" alt="video" style="position: absolute; width: 60px; height: 50px; left: 130px; top: 0;">
                     <h3><span class="skills-item-title">Video shooting</span></h3>
                     <h4><span class="skills-item-description">Capture your moments so that they always stay with you</span></h4>
                 </section>
-                <section class="skills-item-image"><img src="./portfolio/assets/images/skills/image 1.png" alt="image" style="position: absolute; width: 66px; height: 50px; left: 127px; top: 0;">
+                <section class="skills-item-image"><img src="./portfolio/assets/images/skills/image.svg" alt="image" style="position: absolute; width: 66px; height: 50px; left: 127px; top: 0;">
                     <h3><span class="skills-item-title">Retouch</span></h3>
                     <h4><span class="skills-item-description">I strive to make photography surpass reality</span></h4>
                 </section>
-                <section class="skills-item-audio"><img src="./portfolio/assets/images/skills/mic 1.png" alt="sound" style="position: absolute; width: 32px; height: 50px; left: 144px; top: 0;">
+                <section class="skills-item-audio"><img src="./portfolio/assets/images/skills/mic.svg" alt="sound" style="position: absolute; width: 32px; height: 50px; left: 144px; top: 0;">
                     <h3><span class="skills-item-title">Audio</span></h3>
                     <h4><span class="skills-item-description">Professional sounds recording for video, advertising, portfolio</span></h4>                    
                 </section>                
-            </section>
-        </div>
-        <div class="portfolio" id="portfolio">
-            <section class="portfolio-title">
-                <section class="portfolio-title-line"></section>
-                <span class="portfolio-title-text">Portfolio</span>
-            </section>
+            </div>
+        </section>
+        <section class="portfolio" id="portfolio">
+            <div class="portfolio-title">
+                <span class="portfolio-title-line"></span>
+                <section class="portfolio-title-text">
+                    <h2>Portfolio</h2>
+                </section>
+            </div>
             <section class="portfolio-buttons">
                 <button class="button-winter">Winter</button>
                 <button class="button-spring">Spring</button>
@@ -84,19 +87,23 @@
                 <section class="portfolio-items-5"></section>
                 <section class="portfolio-items-6"></section>
             </section>
-        </div>
-        <div class="video" id="video">
+        </section>
+        <section class="video" id="video">
             <section class="video-title">
                 <section class="video-title-line"></section>
-                <span class="video-title-text">Video</span>
+                <section class="video-title-text">
+                    <h2>Video</h2>
+                </section>
             </section>
             <section class="videoplayer"></section>
             <section class="play-icon"></section>
-        </div>
-        <div class="price" id="price">
+        </section>
+        <section class="price" id="price">
             <section class="price-title">
                 <section class="price-title-line"></section>
-                <span class="price-title-text">Price</span>
+                <section class="price-title-text">
+                    <h2>Price</h2>
+                </section>
             </section>
             <section class="price-items">
                 <section class="price-item-standard">
@@ -136,28 +143,29 @@
                     <button class="price-button">Order shooting</button>
                 </section>
             </section>
-        </div>
-        <div class="contacts" id="contacts">
-            <input class="email">
-            <input class="phone">
-            <textarea class="message"></textarea>
-        </div>
+        </section>
+        <section class="contacts" id="contacts">
+            <input class="E-mail" placeholder="E-mail">
+            <input class="Phone" placeholder="Phone">
+            <textarea class="Message" placeholder="Message"></textarea>
+            <button class="send-message">Send message</button>
+        </section>
     </main>
     <footer class="footer">
         <section class="footer-data">
-            <span style="position: absolute, height:50, left:0, right:89.56%;">&copy;</span>
-            <span style="position: absolute, height:50, left:21.43%, right:51.65%;">2022</span>
-            <span style="position: absolute, height:50, left:59.34%, right:7.14%;">github</span>
+            <span style="position: absolute; height:50px; left:0; right:89.56%;">&copy;</span>
+            <span style="position: absolute; height:50px; left:21.43%; right:51.65%;">2022</span>
+            <span style="position: absolute; height:50px; left:59.34%; right:7.14%;">github</span>
         </section>
         <section class="footer-course-name">
             <span>Rolling Scopes School</span>
         </section>
         <section class="social-links">
             <ul style=" padding-inline-start:0px; list-style-type: none; display: flex; flex-direction: row; justify-content: space-between;">
-                <li><img src="./portfolio/assets/images/social_links/inst 1.svg" alt="Inst"></li>
-                <li><img src="./portfolio/assets/images/social_links/fb 1.svg" alt="Fb"></li>
-                <li><img src="./portfolio/assets/images/social_links/tw 1.svg" alt="Tw"></li>
-                <li><img src="./portfolio/assets/images/social_links/pinterest 1.svg" alt="Pint"></li>
+                <li class="instagram"></li>
+                <li class="facebook"></li>
+                <li class="twitter"></li>
+                <li class="pinterest"></li>
             </ul>
         </section>
     </footer>

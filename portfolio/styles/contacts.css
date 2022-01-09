@@ -6,26 +6,26 @@
     top: 4682px;
     background: url(../assets/images/contacts/contacts.svg);
 }
-.email {
+.E-mail {
     position: absolute;
-    width: 446px;
+    width: 426px;
     height: 46px;
     left: 970px;
     top: 180px;
+    margin: 0px;
+    padding: 5px 0px 5px 20px;
+    border: 2px solid #BDAE82;
+    background-color: #000;
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
     line-height: 40px;
-    color: #BDAE82;  
-    background: none; 
-    margin: 0px;
-    padding: 0px;
-    border: 2px solid #BDAE82;
+    
 }
-.phone {
+.Phone {
     position: absolute;
-    width: 446px;
+    width: 426px;
     height: 46px;
     left: 67.36%;
     right: 1.39%;
@@ -36,14 +36,15 @@
     font-size: 20px;
     line-height: 40px;
     color: #BDAE82;  
-    background: none; 
+    background: #000; 
     margin: 0px;
-    padding: 0px;
+    padding: 5px 0px 5px 20px;
     border: 2px solid #BDAE82;
 }
-.message {
+
+.Message {
     position: absolute;
-    width: 446px;
+    width: 426px;
     height: 96px;
     left: 67.36%;
     right: 1.39%;
@@ -54,8 +55,26 @@
     font-size: 20px;
     line-height: 40px;
     color: #BDAE82;  
-    background: none; 
+    background: #000; 
     margin: 0px;
-    padding: 0px;
+    padding: 5px 0px 5px 20px;
     border: 2px solid #BDAE82;
+}
+.send-message {
+    position: absolute;
+    height: 55px;
+    width: 220px;
+    left: 970px;
+    top: 450px;
+    background: #BDAE82;
+    color:#000;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+}
+.send-message:hover {
+    color: #FFFFFF;
 }
